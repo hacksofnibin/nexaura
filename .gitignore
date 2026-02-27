@@ -1,0 +1,19 @@
+# Temporary & System Files
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+temp/
+
+# Antigravity/Gemini Config
+.gemini/
+brain/
+*.webp
+*.png
+!assets/*.png
+!assets/*.jpg
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp

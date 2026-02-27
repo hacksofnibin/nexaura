@@ -1,0 +1,603 @@
+﻿[
+    {
+        "id":  1,
+        "title":  "OpenAI Releases GPT-5 with Unprecedented Reasoning Capabilities",
+        "summary":  "OpenAI\u0027s latest model GPT-5 sets new benchmarks across math, coding, and scientific reasoning, surpassing human-expert performance on 87% of evaluated tasks.",
+        "content":  "OpenAI has officially unveiled GPT-5, its most advanced language model to date. The model demonstrates unprecedented capabilities in multi-step reasoning, code generation, and scientific problem-solving. Early benchmarks show GPT-5 outperforming human experts across a wide range of domains, including medical diagnosis, legal analysis, and advanced mathematics.",
+        "category":  "AI",
+        "tags":  [
+                     "GPT-5",
+                     "OpenAI",
+                     "LLM",
+                     "Reasoning"
+                 ],
+        "date":  "2026-02-27",
+        "source":  "MIT Technology Review",
+        "sourceUrl":  "https://www.technologyreview.com",
+        "image":  "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600\u0026q=80",
+        "hot":  true,
+        "trending":  true,
+        "readTime":  5
+    },
+    {
+        "id":  2,
+        "title":  "Critical Vulnerability Found in 50+ Million IoT Devices Worldwide",
+        "summary":  "Security researchers discover a zero-day exploit affecting smart home devices from major manufacturers, enabling remote code execution without authentication.",
+        "content":  "A team of cybersecurity researchers at Sentinel Labs has uncovered a critical zero-day vulnerability affecting over 50 million IoT devices globally. The flaw, dubbed \u0027NightShade\u0027, allows attackers to execute arbitrary code on vulnerable devices without requiring any form of authentication.",
+        "category":  "Cybersecurity",
+        "tags":  [
+                     "IoT",
+                     "Zero-day",
+                     "Vulnerability",
+                     "Security"
+                 ],
+        "date":  "2026-02-26",
+        "source":  "Krebs on Security",
+        "sourceUrl":  "https://krebsonsecurity.com",
+        "image":  "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600\u0026q=80",
+        "hot":  true,
+        "trending":  true,
+        "readTime":  4
+    },
+    {
+        "id":  3,
+        "title":  "Stanford Launches World\u0027s First AI-Powered Medical Degree Program",
+        "summary":  "Stanford University introduces a revolutionary 3-year medical program integrating AI tools throughout the curriculum, preparing doctors for the AI-augmented future of healthcare.",
+        "content":  "Stanford School of Medicine has announced a groundbreaking new medical degree program that fully integrates artificial intelligence into every aspect of training. The 3-year accelerated program uses AI tutors, AI diagnostic simulators, and AI-generated patient cases to provide an unparalleled medical education.",
+        "category":  "Education",
+        "tags":  [
+                     "Stanford",
+                     "Medical",
+                     "AI Education",
+                     "Healthcare"
+                 ],
+        "date":  "2026-02-25",
+        "source":  "EdSurge",
+        "sourceUrl":  "https://edsurge.com",
+        "image":  "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600\u0026q=80",
+        "hot":  true,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "id":  4,
+        "title":  "Anthropic Raises $4B Series E at $60B Valuation",
+        "summary":  "AI safety company Anthropic secures massive funding round, signaling investor confidence in responsible AI development as competition heats up.",
+        "content":  "Anthropic, the AI safety-focused company behind the Claude family of models, has closed a $4 billion Series E funding round at a $60 billion valuation. The round was led by Google and includes participation from Spark Capital, Salesforce, and several sovereign wealth funds.",
+        "category":  "Startups",
+        "tags":  [
+                     "Anthropic",
+                     "Funding",
+                     "AI Safety",
+                     "Claude"
+                 ],
+        "date":  "2026-02-25",
+        "source":  "TechCrunch",
+        "sourceUrl":  "https://techcrunch.com",
+        "image":  "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  true,
+        "readTime":  4
+    },
+    {
+        "id":  5,
+        "title":  "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
+        "summary":  "AlphaFold 3 can now predict protein-DNA and protein-RNA interactions with near-atomic accuracy, opening doors to new drug discovery pipelines.",
+        "content":  "Google DeepMind\u0027s latest iteration of AlphaFold demonstrates a remarkable leap in capability. AlphaFold 3 can now predict complex molecular interactions between proteins, DNA, and RNA with near-atomic accuracy. This breakthrough is expected to dramatically accelerate drug discovery.",
+        "category":  "Research",
+        "tags":  [
+                     "DeepMind",
+                     "AlphaFold",
+                     "Biology",
+                     "Drug Discovery"
+                 ],
+        "date":  "2026-02-24",
+        "source":  "Nature",
+        "sourceUrl":  "https://www.nature.com",
+        "image":  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  true,
+        "readTime":  7
+    },
+    {
+        "id":  6,
+        "title":  "New Open-Source LLM \u0027Mistral Ultra\u0027 Rivals GPT-4 at 10% of Cost",
+        "summary":  "French AI startup Mistral AI releases their most powerful open-source model yet, challenging proprietary AI dominance with an MIT-licensed model.",
+        "content":  "Mistral AI has released Mistral Ultra, their most capable open-source large language model to date. The model, available under the MIT license, demonstrates performance comparable to GPT-4 on most standard benchmarks while requiring significantly less computational resources.",
+        "category":  "AI",
+        "tags":  [
+                     "Mistral",
+                     "Open Source",
+                     "LLM",
+                     "France"
+                 ],
+        "date":  "2026-02-24",
+        "source":  "WIRED",
+        "sourceUrl":  "https://wired.com",
+        "image":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  7,
+        "title":  "Ransomware Gang Targets 200+ US School Districts Simultaneously",
+        "summary":  "A coordinated ransomware attack has crippled digital infrastructure across schools in 14 states, forcing weeks-long return to paper-based operations.",
+        "content":  "A sophisticated ransomware group known as \u0027BlackPearl\u0027 has launched a coordinated attack against over 200 US school districts simultaneously. The attack, which began late Friday evening, has encrypted critical educational data and disrupted digital operations across schools serving over 1.2 million students.",
+        "category":  "Cybersecurity",
+        "tags":  [
+                     "Ransomware",
+                     "Education",
+                     "Attack",
+                     "Schools"
+                 ],
+        "date":  "2026-02-23",
+        "source":  "The Hacker News",
+        "sourceUrl":  "https://thehackernews.com",
+        "image":  "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  true,
+        "readTime":  5
+    },
+    {
+        "id":  8,
+        "title":  "Khan Academy\u0027s AI Tutor Khanmigo Reaches 10 Million Student Users",
+        "summary":  "Khan Academy\u0027s AI-powered tutoring assistant hits a major milestone as adoption accelerates across 150 countries, proving AI\u0027s potential in democratizing education.",
+        "content":  "Khan Academy\u0027s Khanmigo AI tutor has reached 10 million active student users, marking a major milestone for AI-powered education. The platform, which uses GPT-4-based technology, now operates in 40 languages and serves students across 150 countries.",
+        "category":  "Education",
+        "tags":  [
+                     "Khan Academy",
+                     "EdTech",
+                     "AI Tutor",
+                     "Global"
+                 ],
+        "date":  "2026-02-23",
+        "source":  "EdSurge",
+        "sourceUrl":  "https://edsurge.com",
+        "image":  "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  4
+    },
+    {
+        "id":  9,
+        "title":  "Y Combinator W2026 Batch: 40% of Startups are AI-Native",
+        "summary":  "YC\u0027s latest batch reveals a stark shift toward AI-first companies, with $500M+ already in post-batch funding commitments from top VCs.",
+        "content":  "Y Combinator has revealed that 40% of the companies in its Winter 2026 batch are AI-native startups, a record high since YC was founded. The batch includes AI companies building for healthcare, legal, education, defense, and consumer applications.",
+        "category":  "Startups",
+        "tags":  [
+                     "Y Combinator",
+                     "AI Startups",
+                     "Venture Capital",
+                     "Funding"
+                 ],
+        "date":  "2026-02-22",
+        "source":  "TechCrunch",
+        "sourceUrl":  "https://techcrunch.com",
+        "image":  "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  true,
+        "readTime":  5
+    },
+    {
+        "id":  10,
+        "title":  "Meta Releases Llama 4 with Multimodal and Code Superpowers",
+        "summary":  "Meta\u0027s fourth generation open-source Llama model introduces native vision, audio, and advanced code generation capabilities, raising the open-source AI bar.",
+        "content":  "Meta AI has announced the release of Llama 4, the latest in its open-source large language model series. Llama 4 introduces native multimodal capabilities, supporting text, images, and audio inputs simultaneously. The model also features significantly improved code generation with support for 50+ programming languages.",
+        "category":  "AI",
+        "tags":  [
+                     "Meta",
+                     "Llama",
+                     "Open Source",
+                     "Multimodal"
+                 ],
+        "date":  "2026-02-22",
+        "source":  "VentureBeat",
+        "sourceUrl":  "https://venturebeat.com",
+        "image":  "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "id":  11,
+        "title":  "New AI Tool Detects Deepfakes with 99.7% Accuracy",
+        "summary":  "Researchers at MIT CSAIL unveil DeepShield, a real-time deepfake detection system that goes beyond visual artifacts to analyze micro-expression patterns.",
+        "content":  "MIT\u0027s Computer Science and Artificial Intelligence Laboratory has developed DeepShield, a groundbreaking deepfake detection system. Unlike existing tools that look for visual inconsistencies, DeepShield analyzes temporal patterns, micro-expressions, and physiological signals like virtual pulse patterns to detect manipulated media.",
+        "category":  "Research",
+        "tags":  [
+                     "Deepfake",
+                     "Detection",
+                     "MIT",
+                     "Computer Vision"
+                 ],
+        "date":  "2026-02-21",
+        "source":  "MIT News",
+        "sourceUrl":  "https://news.mit.edu",
+        "image":  "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  12,
+        "title":  "GitHub Copilot X3 Now Writes Entire Features from Plain English Specs",
+        "summary":  "GitHub\u0027s AI coding assistant evolves beyond autocomplete to full autonomous feature development, fundamentally changing how software is built.",
+        "content":  "GitHub has announced Copilot X3, a major evolution of their AI coding assistant. The new version can take plain English feature specifications and generate complete, production-ready code modules including tests, documentation, and API integration layers.",
+        "category":  "Tools",
+        "tags":  [
+                     "GitHub",
+                     "Copilot",
+                     "AI Coding",
+                     "Productivity"
+                 ],
+        "date":  "2026-02-20",
+        "source":  "GitHub Blog",
+        "sourceUrl":  "https://github.blog",
+        "image":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  true,
+        "readTime":  4
+    },
+    {
+        "id":  13,
+        "title":  "China\u0027s AI Investment Surpasses $100B in 2025, Narrowing Gap with US",
+        "summary":  "China\u0027s government-backed AI push sees record investments in 2025, with significant breakthroughs in robotics and industrial automation AI.",
+        "content":  "China\u0027s total AI investment reached $100 billion in 2025, according to a new report from the OECD. The investment surge, largely backed by the government\u0027s national AI strategy, has produced significant advances in robotics, computer vision, and industrial automation.",
+        "category":  "AI",
+        "tags":  [
+                     "China",
+                     "Geopolitics",
+                     "Investment",
+                     "Global AI"
+                 ],
+        "date":  "2026-02-20",
+        "source":  "WIRED",
+        "sourceUrl":  "https://wired.com",
+        "image":  "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "id":  14,
+        "title":  "EU AI Act Full Enforcement Begins: What Companies Must Do Now",
+        "summary":  "With all provisions of the EU AI Act now fully in force, tech companies face fines up to 6% of global revenue for non-compliance with high-risk AI rules.",
+        "content":  "The European Union\u0027s landmark AI Act has entered full enforcement mode, with all provisions now active. Companies developing or deploying AI systems in the EU must comply with strict requirements around transparency, risk assessment, and human oversight, or face fines of up to 6% of global annual revenue.",
+        "category":  "AI",
+        "tags":  [
+                     "EU AI Act",
+                     "Regulation",
+                     "Compliance",
+                     "Policy"
+                 ],
+        "date":  "2026-02-19",
+        "source":  "The Verge",
+        "sourceUrl":  "https://theverge.com",
+        "image":  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  7
+    },
+    {
+        "id":  15,
+        "title":  "Quantum Computing Startup IonQ Achieves 1000-Qubit Milestone",
+        "summary":  "IonQ\u0027s trapped-ion quantum computer breaks the 1000-qubit barrier with record-low error rates, bringing practical quantum advantage closer to reality.",
+        "content":  "IonQ has announced that its latest trapped-ion quantum computer has achieved a working 1000-qubit system with error rates well below the threshold theoretically required for practical quantum advantage. This milestone is considered a major stepping stone toward fault-tolerant quantum computing.",
+        "category":  "Research",
+        "tags":  [
+                     "Quantum Computing",
+                     "IonQ",
+                     "Qubits",
+                     "Hardware"
+                 ],
+        "date":  "2026-02-18",
+        "source":  "IEEE Spectrum",
+        "sourceUrl":  "https://spectrum.ieee.org",
+        "image":  "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "id":  16,
+        "title":  "ChatGPT Reaches 500 Million Daily Active Users",
+        "summary":  "OpenAI\u0027s flagship product continues its explosive growth with an announcement of half a billion daily users, a 5x increase from 2024.",
+        "content":  "OpenAI has announced that ChatGPT has crossed 500 million daily active users, cementing its position as one of the fastest-growing technology products in history. The milestone represents a 5x increase from the 100 million daily users reported in 2024.",
+        "category":  "AI",
+        "tags":  [
+                     "ChatGPT",
+                     "OpenAI",
+                     "Growth",
+                     "Users"
+                 ],
+        "date":  "2026-02-17",
+        "source":  "TechCrunch",
+        "sourceUrl":  "https://techcrunch.com",
+        "image":  "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  3
+    },
+    {
+        "id":  17,
+        "title":  "AI-Powered Cybersecurity Platform Darktrace Blocks 1M Attacks Daily",
+        "summary":  "Darktrace\u0027s self-learning AI now autonomously neutralizes over 1 million cyber attacks per day across its global customer network.",
+        "content":  "British AI cybersecurity company Darktrace has revealed that its Autonomous Response technology now blocks over 1 million cyber attacks daily across its global network of over 10,000 enterprise customers. The AI system uses unsupervised machine learning to detect and neutralize novel threats in real time.",
+        "category":  "Cybersecurity",
+        "tags":  [
+                     "Darktrace",
+                     "AI Security",
+                     "Autonomous",
+                     "Enterprise"
+                 ],
+        "date":  "2026-02-16",
+        "source":  "Forbes",
+        "sourceUrl":  "https://forbes.com",
+        "image":  "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  18,
+        "title":  "Microsoft Copilot for Education Launches in 50 Countries",
+        "summary":  "Microsoft brings its AI co-pilot suite to K-12 and higher education institutions worldwide, offering AI-assisted lesson planning, grading, and personalized tutoring.",
+        "content":  "Microsoft has launched Copilot for Education, a comprehensive AI toolkit specifically designed for educators and students. The platform offers AI-assisted lesson planning, automated grading assistance, personalized study guides, and real-time language translation for non-native speakers.",
+        "category":  "Education",
+        "tags":  [
+                     "Microsoft",
+                     "Education",
+                     "Copilot",
+                     "Schools"
+                 ],
+        "date":  "2026-02-16",
+        "source":  "EdTech Magazine",
+        "sourceUrl":  "https://edtechmagazine.com",
+        "image":  "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  4
+    },
+    {
+        "id":  19,
+        "title":  "Perplexity AI Valued at $9B After Latest Funding Round",
+        "summary":  "AI search startup Perplexity closes $500M round as it expands into enterprise search and prepares to take on Google with its answer engine approach.",
+        "content":  "Perplexity AI has closed a $500 million funding round at a $9 billion valuation, making it one of the most valuable AI startups in the world. The company, which offers an AI-powered answer engine as an alternative to traditional search, plans to use the funds to expand enterprise offerings and grow its team.",
+        "category":  "Startups",
+        "tags":  [
+                     "Perplexity",
+                     "AI Search",
+                     "Funding",
+                     "Enterprise"
+                 ],
+        "date":  "2026-02-15",
+        "source":  "Forbes",
+        "sourceUrl":  "https://forbes.com",
+        "image":  "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  4
+    },
+    {
+        "id":  20,
+        "title":  "New Stable Diffusion 4 Generates Photorealistic Video from Text Prompts",
+        "summary":  "Stability AI\u0027s latest model can generate 60-second, 4K photorealistic videos from text descriptions, raising new concerns about synthetic media.",
+        "content":  "Stability AI has released Stable Diffusion 4, a revolutionary video generation model capable of producing 60-second, 4K-resolution photorealistic videos from text prompts alone. The model, trained on a licensed dataset of 10 million hours of video, represents a massive leap in generative video quality.",
+        "category":  "AI",
+        "tags":  [
+                     "Stable Diffusion",
+                     "Video Generation",
+                     "Generative AI",
+                     "Media"
+                 ],
+        "date":  "2026-02-14",
+        "source":  "VentureBeat",
+        "sourceUrl":  "https://venturebeat.com",
+        "image":  "https://images.unsplash.com/photo-1536240478700-b869ad10e128?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  21,
+        "title":  "UNESCO Report: 60% of Teaching Jobs Will Require AI Skills by 2028",
+        "summary":  "A new UNESCO report warns that educators who don\u0027t adapt to AI tools risk being left behind, calling for urgent investment in teacher AI training programs.",
+        "content":  "A comprehensive UNESCO report has warned that 60% of teaching positions globally will require demonstrated AI skills by 2028. The report, based on surveys from 120 countries, highlights a growing skills gap between what education systems need and what current teacher training programs provide.",
+        "category":  "Education",
+        "tags":  [
+                     "UNESCO",
+                     "AI Skills",
+                     "Teachers",
+                     "Future of Work"
+                 ],
+        "date":  "2026-02-13",
+        "source":  "UNESCO",
+        "sourceUrl":  "https://unesco.org",
+        "image":  "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "id":  22,
+        "title":  "AMD MI400 GPU Outperforms NVIDIA H200 in AI Training Benchmarks",
+        "summary":  "AMD\u0027s newest AI accelerator chip delivers a 40% performance boost over NVIDIA\u0027s flagship in distributed training workloads, reshaping the AI hardware market.",
+        "content":  "AMD has officially launched the Instinct MI400, its most powerful AI accelerator to date. Early independent benchmarks show the MI400 delivering 40% better performance than NVIDIA\u0027s H200 in large-scale distributed training workloads, while consuming 15% less power.",
+        "category":  "Tools",
+        "tags":  [
+                     "AMD",
+                     "GPU",
+                     "Hardware",
+                     "AI Training"
+                 ],
+        "date":  "2026-02-12",
+        "source":  "AnandTech",
+        "sourceUrl":  "https://anandtech.com",
+        "image":  "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  23,
+        "title":  "Apple Intelligence 2.0 Brings On-Device AI to MacBook and iPad",
+        "summary":  "Apple\u0027s expanded AI suite offers writing assistance, image generation, and a fully redesigned Siri â€” all running locally without sending data to the cloud.",
+        "content":  "Apple has announced Apple Intelligence 2.0, a major expansion of its on-device AI capabilities. The update brings advanced writing assistance, on-device DALL-E-style image generation, and a completely redesigned Siri with multi-step reasoning capabilities to MacBook Pro, MacBook Air, and the latest iPad Pro models.",
+        "category":  "Tools",
+        "tags":  [
+                     "Apple",
+                     "AI",
+                     "On-device",
+                     "Privacy"
+                 ],
+        "date":  "2026-02-11",
+        "source":  "The Verge",
+        "sourceUrl":  "https://theverge.com",
+        "image":  "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  4
+    },
+    {
+        "id":  24,
+        "title":  "India Launches National AI Mission with $1.5B for AI Startups",
+        "summary":  "India\u0027s government unveils an ambitious National AI Mission, providing funding, compute access, and regulatory support for homegrown AI companies.",
+        "content":  "The Indian government has officially launched the National AI Mission, committing $1.5 billion over 5 years to support domestic AI research and startup development. The mission includes subsidized access to GPU compute clusters, AI-focused incubators in 10 major cities, and a regulatory sandbox for AI innovation.",
+        "category":  "Startups",
+        "tags":  [
+                     "India",
+                     "Government",
+                     "Policy",
+                     "AI Mission"
+                 ],
+        "date":  "2026-02-10",
+        "source":  "Economic Times",
+        "sourceUrl":  "https://economictimes.com",
+        "image":  "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  5
+    },
+    {
+        "id":  25,
+        "title":  "Autonomous AI Agents Can Now Operate Computers Like Humans",
+        "summary":  "New browser-use AI agents from Anthropic and OpenAI can independently navigate the web, fill forms, code, and complete complex multi-hour tasks without human supervision.",
+        "content":  "A new generation of AI agents can now operate computers autonomously, clicking, typing, navigating browsers, and executing multi-step workflows without human supervision. Both Anthropic\u0027s Computer Use feature and OpenAI\u0027s Operator have demonstrated the ability to handle complex, multi-hour tasks that previously required human operators.",
+        "category":  "AI",
+        "tags":  [
+                     "AI Agents",
+                     "Automation",
+                     "Browser",
+                     "Agentic AI"
+                 ],
+        "date":  "2026-02-09",
+        "source":  "MIT Technology Review",
+        "sourceUrl":  "https://technologyreview.com",
+        "image":  "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600\u0026q=80",
+        "hot":  false,
+        "trending":  false,
+        "readTime":  6
+    },
+    {
+        "trending":  true,
+        "id":  26,
+        "image":  "https://images.unsplash.com/photo-1607706189992-eaa57862eca8?w=600\u0026q=80",
+        "title":  "Flutter 4.0 Introduces Revolutionary Desktop Rendering Engine",
+        "tags":  [
+                     "Flutter",
+                     "Dart",
+                     "Cross-Platform",
+                     "Updates"
+                 ],
+        "category":  "Developer",
+        "sourceUrl":  "https://flutter.dev",
+        "source":  "Flutter Dev Blog",
+        "readTime":  4,
+        "summary":  "The new stable release brings a massive performance boost to MacOS and Windows applications, cementing Flutter as the top cross-platform choice.",
+        "content":  "Google has announced Flutter 4.0, featuring a completely rewritten rendering pipeline called \u0027Impeller Max\u0027. This release drastically reduces jank and improves rendering speeds on desktop platforms by over 60%, making it indistinguishable from native performance.",
+        "hot":  true,
+        "date":  "2026-02-27"
+    },
+    {
+        "trending":  true,
+        "id":  27,
+        "image":  "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600\u0026q=80",
+        "title":  "PostgreSQL 18 Released with Built-in Vector Search",
+        "tags":  [
+                     "PostgreSQL",
+                     "Database",
+                     "Vector Search",
+                     "AI"
+                 ],
+        "category":  "Developer",
+        "sourceUrl":  "https://postgresql.org",
+        "source":  "PostgreSQL News",
+        "readTime":  5,
+        "summary":  "The world\u0027s most advanced open source database now natively supports vector embeddings and similarity search without the need for extensions.",
+        "content":  "The PostgreSQL Global Development Group has released PostgreSQL 18. The highlight feature is native built-in support for vector similarity search, eliminating the need for extensions like pgvector and providing a massive performance boost for AI applications.",
+        "hot":  false,
+        "date":  "2026-02-26"
+    },
+    {
+        "trending":  true,
+        "id":  28,
+        "image":  "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600\u0026q=80",
+        "title":  "NVIDIA Market Cap Hits $5 Trillion as AI Demand Peaks",
+        "tags":  [
+                     "NVIDIA",
+                     "Stock Market",
+                     "AI Infrastructure",
+                     "NVDA"
+                 ],
+        "category":  "Tools",
+        "sourceUrl":  "https://bloomberg.com",
+        "source":  "Bloomberg",
+        "readTime":  5,
+        "summary":  "The AI chip giant crosses another historic milestone as data center revenue continues to defy analyst expectations.",
+        "content":  "NVIDIA has become the first company in history to reach a  trillion market capitalization. The surge comes as major cloud providers and sovereign nations compete for the latest AI hardware, with backlogs for Blackwell GPUs extending into late 2027.",
+        "hot":  true,
+        "date":  "2026-02-27"
+    },
+    {
+        "trending":  true,
+        "id":  29,
+        "image":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?w=600\u0026q=80",
+        "title":  "Microsoft and OpenAI Reveal Plans for  \u0027Stargate\u0027 Supercomputer",
+        "tags":  [
+                     "Microsoft",
+                     "OpenAI",
+                     "Supercomputer",
+                     "Infrastructure"
+                 ],
+        "category":  "AI",
+        "sourceUrl":  "https://theinformation.com",
+        "source":  "The Information",
+        "readTime":  6,
+        "summary":  "An unprecedented IT infrastructure project aims to build the world\u0027s largest AI supercomputer to train next-generation models.",
+        "content":  "Microsoft and OpenAI are collaborating on plans for a massive data center project that could cost as much as  billion. The supercomputer, codenamed \u0027Stargate\u0027, will house millions of specialized AI chips and is planned for a 2028 launch.",
+        "hot":  false,
+        "date":  "2026-02-26"
+    },
+    {
+        "trending":  false,
+        "id":  30,
+        "image":  "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600\u0026q=80",
+        "title":  "Alphabet Stock Surges as Google Gemini Integrated into All Enterprise Apps",
+        "tags":  [
+                     "Google",
+                     "Alphabet",
+                     "Gemini",
+                     "Stocks"
+                 ],
+        "category":  "Startups",
+        "sourceUrl":  "https://cnbc.com",
+        "source":  "CNBC",
+        "readTime":  4,
+        "summary":  "Investors applaud Google\u0027s aggressive AI rollout, with Workspace AI revenue seeing 150% year-over-year growth.",
+        "content":  "Alphabet (GOOGL) shares rallied today following strong quarterly results that highlight the rapid monetization of Gemini AI. The company reported that over 70% of Fortune 500 companies are now using Gemini features within Google Workspace.",
+        "hot":  false,
+        "date":  "2026-02-25"
+    }
+]
+

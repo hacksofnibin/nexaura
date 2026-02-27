@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Sources – NexAura</title>
+    <meta name="description"
+        content="Explore the trusted news sources that power NexAura's AI and tech intelligence feed." />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-streaks" aria-hidden="true">
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a class="nav-logo" href="index.html">
+            <img src="assets/logo.png" alt="NexAura Logo" />
+            <span class="nav-logo-text">NexAura</span>
+        </a>
+
+        <!-- Desktop Search -->
+        <div class="nav-search">
+            <span class="search-icon"></span>
+            <input type="text" class="search-input" placeholder="Search AI, cybersecurity, startups…"
+                autocomplete="off" />
+            <div class="search-results-dropdown" id="searchDropdown"></div>
+        </div>
+
+        <!-- Desktop Nav -->
+        <div class="nav-links nav-links-desktop">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="sources.html" class="nav-link active">Sources</a>
+            <a href="about.html" class="nav-link">About</a>
+        </div>
+
+        <a href="login.html" class="btn-login" id="navLoginBtn">
+            <span></span> Sign In
+        </a>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link"> Home</a>
+        <a href="sources.html" class="nav-link active"> Sources</a>
+        <a href="about.html" class="nav-link"> About</a>
+    </div>
+    <!-- Hero -->
+    <section style="padding:130px 24px 60px;text-align:center;position:relative;z-index:1;">
+        <div class="container">
+            <div class="hero-badge"><span class="dot"></span> Trusted Publishers</div>
+            <h1
+                style="font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,4vw,3rem);font-weight:700;margin-bottom:16px;">
+                Our <span class="gradient-text">News Sources</span>
+            </h1>
+            <p style="color:var(--text-secondary);font-size:1rem;max-width:560px;margin:0 auto;">
+                NexAura curates content from the world's most respected technology publishers. All credit belongs to
+                the
+                original authors and publications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sources Grid -->
+    <main class="container relative" style="padding-bottom:80px;">
+
+        <!-- Disclaimer -->
+        <div style="background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.15);border-radius:var(--radius-md);
+      padding:16px 20px;margin-bottom:40px;display:flex;align-items:flex-start;gap:12px;">
+            <span style="font-size:1.2rem;flex-shrink:0;">ℹ️</span>
+            <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.6;">
+                NexAura aggregates and curates news from third-party publications. We do not claim ownership of any
+                content. All articles link to their original sources. If you are a publisher and have concerns,
+                please
+                <a href="mailto:hello@nexaura.ai" style="color:var(--accent-blue);">contact us</a>.
+            </p>
+        </div>
+
+        <!-- AI & Technology -->
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:20px;
+      display:flex;align-items:center;gap:10px;">
+            <span class="cat-badge ai" style="font-size:0.75rem;padding:5px 12px;"> AI & Technology</span>
+        </h2>
+        <div class="sources-grid" style="margin-bottom:48px;">
+            <a href="https://technologyreview.com" target="_blank" rel="noopener" class="source-card">
+                <h3>MIT Technology Review</h3>
+                <p>Authoritative reporting on technology and its business and social impacts. Published by the
+                    Massachusetts Institute of Technology since 1899.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">technologyreview.com ↗
+                </div>
+            </a>
+            <a href="https://wired.com" target="_blank" rel="noopener" class="source-card">
+                <h3>WIRED</h3>
+                <p>In-depth coverage of how technology is shaping culture, the economy, and politics. One of the
+                    most
+                    trusted voices in technology journalism.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">wired.com ↗</div>
+            </a>
+            <a href="https://theverge.com" target="_blank" rel="noopener" class="source-card">
+                <h3>The Verge</h3>
+                <p>Technology, science, art, and culture news. Known for breaking tech news and expert product
+                    reviews.
+                </p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">theverge.com ↗</div>
+            </a>
+            <a href="https://venturebeat.com" target="_blank" rel="noopener" class="source-card">
+                <h3>VentureBeat</h3>
+                <p>Transformative tech coverage for the enterprise market. Focused on AI, gaming, and how technology
+                    is
+                    changing business.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">venturebeat.com ↗</div>
+            </a>
+        </div>
+
+        <!-- Startups & Business -->
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:20px;
+      display:flex;align-items:center;gap:10px;">
+            <span class="cat-badge startups" style="font-size:0.75rem;padding:5px 12px;"> Startups & Business</span>
+        </h2>
+        <div class="sources-grid" style="margin-bottom:48px;">
+            <a href="https://techcrunch.com" target="_blank" rel="noopener" class="source-card">
+                <h3>TechCrunch</h3>
+                <p>The leading technology media property, dedicated to obsessively profiling startups, reviewing new
+                    Internet products, and breaking tech news.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">techcrunch.com ↗</div>
+            </a>
+            <a href="https://forbes.com" target="_blank" rel="noopener" class="source-card">
+                <h3>Forbes</h3>
+                <p>Authoritative coverage of business, investing, technology, entrepreneurship, and lifestyle — with
+                    a
+                    strong AI and tech focus.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">forbes.com ↗</div>
+            </a>
+            <a href="https://economictimes.com" target="_blank" rel="noopener" class="source-card">
+                <h3>Economic Times</h3>
+                <p>India's most widely-read financial daily. Covers global and Indian business, technology, and
+                    startup
+                    ecosystems.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">economictimes.com ↗</div>
+            </a>
+        </div>
+
+        <!-- Cybersecurity -->
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:20px;
+      display:flex;align-items:center;gap:10px;">
+            <span class="cat-badge cybersecurity" style="font-size:0.75rem;padding:5px 12px;"> Cybersecurity</span>
+        </h2>
+        <div class="sources-grid" style="margin-bottom:48px;">
+            <a href="https://krebsonsecurity.com" target="_blank" rel="noopener" class="source-card">
+                <h3>Krebs on Security</h3>
+                <p>In-depth security news and investigation by veteran reporter Brian Krebs. One of the most trusted
+                    cybersecurity blogs in the world.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">krebsonsecurity.com ↗</div>
+            </a>
+            <a href="https://thehackernews.com" target="_blank" rel="noopener" class="source-card">
+                <h3>The Hacker News</h3>
+                <p>Most widely-read cybersecurity news website in the world. Covers data breaches, malware,
+                    vulnerabilities, and hacking incidents.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">thehackernews.com ↗</div>
+            </a>
+        </div>
+
+        <!-- Education & Research -->
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:20px;
+      display:flex;align-items:center;gap:10px;">
+            <span class="cat-badge education" style="font-size:0.75rem;padding:5px 12px;"> Education &
+                Research</span>
+        </h2>
+        <div class="sources-grid" style="margin-bottom:48px;">
+            <a href="https://edsurge.com" target="_blank" rel="noopener" class="source-card">
+                <h3>EdSurge</h3>
+                <p>Education technology news, resources, and research for educators, students, and edtech companies
+                    worldwide.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">edsurge.com ↗</div>
+            </a>
+            <a href="https://news.mit.edu" target="_blank" rel="noopener" class="source-card">
+                <h3>MIT News</h3>
+                <p>Research breakthroughs, news, and innovation from the Massachusetts Institute of Technology.
+                    Cutting-edge science and engineering.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">news.mit.edu ↗</div>
+            </a>
+            <a href="https://nature.com" target="_blank" rel="noopener" class="source-card">
+                <h3>Nature</h3>
+                <p>The world's leading multidisciplinary science journal. Publishes peer-reviewed research from
+                    every
+                    field of science, including AI and biology.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">nature.com ↗</div>
+            </a>
+            <a href="https://spectrum.ieee.org" target="_blank" rel="noopener" class="source-card">
+                <h3>IEEE Spectrum</h3>
+                <p>The flagship publication of IEEE — covering technology, engineering, and science for
+                    professionals
+                    and enthusiasts worldwide.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">spectrum.ieee.org ↗</div>
+            </a>
+            <a href="https://unesco.org" target="_blank" rel="noopener" class="source-card">
+                <h3>UNESCO</h3>
+                <p>United Nations Educational, Scientific and Cultural Organization. Reports on global education
+                    policy,
+                    AI in learning, and digital literacy.</p>
+                <div style="margin-top:14px;font-size:0.78rem;color:var(--accent-blue);">unesco.org ↗</div>
+            </a>
+        </div>
+
+        <!-- Submit Source -->
+        <div
+            style="text-align:center;padding:40px;background:var(--bg-glass);border:1px solid var(--border-glass);border-radius:var(--radius-xl);">
+            <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:10px;">
+                Suggest a Source
+            </h2>
+            <p style="color:var(--text-muted);font-size:0.875rem;margin-bottom:20px;">
+                Know a great tech publication we should include? Let us know!
+            </p>
+            <a href="mailto:sources@nexaura.ai?subject=Source Suggestion" class="btn btn-primary">
+                Suggest a Publisher
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2026 NexAura. All rights reserved. All content credited to original publishers.</p>
+                <div style="display:flex;gap:20px;">
+                    <a href="index.html" style="color:var(--accent-blue);">Home</a>
+                    <a href="privacy.html" style="color:var(--text-muted);">Privacy</a>
+                    <a href="about.html" style="color:var(--text-muted);">About</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/news.js"></script>
+</body>
+
+</html>
