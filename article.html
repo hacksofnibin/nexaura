@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article – NexAura</title>
+    <meta name="description" content="Read the full article on NexAura — AI, tech, and cybersecurity news." />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-streaks" aria-hidden="true">
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+        <div class="bg-streak"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a class="nav-logo" href="index.html">
+            <img src="assets/logo.png" alt="NexAura Logo" />
+            <span class="nav-logo-text">NexAura</span>
+        </a>
+
+        <!-- Desktop Search -->
+        <div class="nav-search">
+            <span class="search-icon"></span>
+            <input type="text" class="search-input" placeholder="Search AI, cybersecurity, startups…"
+                autocomplete="off" />
+            <div class="search-results-dropdown" id="searchDropdown"></div>
+        </div>
+
+        <!-- Desktop Nav -->
+        <div class="nav-links nav-links-desktop">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="sources.html" class="nav-link">Sources</a>
+            <a href="about.html" class="nav-link">About</a>
+        </div>
+
+        <a href="login.html" class="btn-login" id="navLoginBtn">
+            <span></span> Sign In
+        </a>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link"> Home</a>
+        <a href="sources.html" class="nav-link"> Sources</a>
+        <a href="about.html" class="nav-link"> About</a>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+        <div class="article-layout">
+            <!-- Article Main -->
+            <article>
+                <div id="articleContent">
+                    <!-- Skeleton -->
+                    <div class="skeleton" style="height:20px;width:200px;margin-bottom:16px;"></div>
+                    <div class="skeleton" style="height:40px;width:90%;margin-bottom:12px;"></div>
+                    <div class="skeleton" style="height:40px;width:70%;margin-bottom:24px;"></div>
+                    <div class="skeleton" style="height:400px;width:100%;border-radius:14px;margin-bottom:28px;"></div>
+                    <div class="skeleton" style="height:16px;width:100%;margin-bottom:10px;"></div>
+                    <div class="skeleton" style="height:16px;width:95%;margin-bottom:10px;"></div>
+                    <div class="skeleton" style="height:16px;width:88%;margin-bottom:10px;"></div>
+                </div>
+
+                <!-- Tags -->
+                <div id="articleTags" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:24px;"></div>
+
+                <!-- Social Share -->
+                <div
+                    style="display:flex;align-items:center;gap:12px;margin-top:28px;padding-top:24px;border-top:1px solid var(--border-glass);">
+                    <span style="font-size:0.875rem;color:var(--text-muted);font-weight:600;">Share:</span>
+                    <button
+                        onclick="navigator.clipboard.writeText(window.location.href).then(()=> this.textContent='✅ Copied!')"
+                        style="padding:8px 16px;background:var(--bg-glass);border:1px solid var(--border-glass);border-radius:50px;
+              font-size:0.8rem;color:var(--text-secondary);cursor:pointer;transition:all 0.2s;">
+                        🔗 Copy Link
+                    </button>
+                    <a href="https://twitter.com/intent/tweet" target="_blank" style="padding:8px 16px;background:rgba(29,161,242,0.1);border:1px solid rgba(29,161,242,0.25);
+              border-radius:50px;font-size:0.8rem;color:#1da1f2;">
+                        𝕏 Twitter
+                    </a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/" target="_blank" style="padding:8px 16px;background:rgba(10,102,194,0.1);border:1px solid rgba(10,102,194,0.25);
+              border-radius:50px;font-size:0.8rem;color:#0A66C2;">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <!-- Comments -->
+                <div class="comments-section" id="commentsSection">
+                    <h2 class="section-title" style="font-size:1.4rem;margin-bottom:24px;">
+                        <span class="icon">💬</span>
+                        Comments <span style="font-size:1rem;color:var(--text-muted);font-weight:400;">(<span
+                                id="commentsCount">0</span>)</span>
+                    </h2>
+
+                    <form class="comment-form" id="commentForm">
+                        <textarea id="commentText"
+                            placeholder="Share your thoughts, insights, or questions about this article…"></textarea>
+                        <div class="comment-form-footer">
+                            <input type="text" id="commentName" class="comment-name-input"
+                                placeholder="Your name (optional)" />
+                            <button type="submit" class="btn btn-primary" style="padding:10px 22px;font-size:0.875rem;">
+                                💬 Post Comment
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="commentsList"></div>
+                </div>
+            </article>
+
+            <!-- Sidebar -->
+            <aside>
+                <!-- Related Articles -->
+                <div class="sidebar-card">
+                    <h3><span>🔗</span> Related Articles</h3>
+                    <div id="relatedArticles">
+                        <div class="skeleton" style="height:55px;width:100%;margin-bottom:12px;border-radius:8px;">
+                        </div>
+                        <div class="skeleton" style="height:55px;width:100%;margin-bottom:12px;border-radius:8px;">
+                        </div>
+                        <div class="skeleton" style="height:55px;width:100%;border-radius:8px;"></div>
+                    </div>
+                </div>
+
+                <!-- Trending -->
+                <div class="sidebar-card">
+                    <h3><span></span> Trending Now</h3>
+                    <div id="sidebarTrending"></div>
+                </div>
+
+                <!-- Categories Quick Nav -->
+                <div class="sidebar-card">
+                    <h3><span>📂</span> Browse by Topic</h3>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                        <a href="index.html" class="cat-badge ai" style="cursor:pointer;padding:6px 14px;"> AI</a>
+                        <a href="index.html" class="cat-badge cybersecurity" style="cursor:pointer;padding:6px 14px;">
+                            Security</a>
+                        <a href="index.html" class="cat-badge education" style="cursor:pointer;padding:6px 14px;">
+                            Education</a>
+                        <a href="index.html" class="cat-badge startups" style="cursor:pointer;padding:6px 14px;">
+                            Startups</a>
+                        <a href="index.html" class="cat-badge research" style="cursor:pointer;padding:6px 14px;">
+                            Research</a>
+                        <a href="index.html" class="cat-badge tools" style="cursor:pointer;padding:6px 14px;">
+                            Tools</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top:none;padding-top:0;">
+                <p>© 2026 NexAura. All rights reserved.</p>
+                <div style="display:flex;gap:20px;">
+                    <a href="index.html" style="color:var(--accent-blue);">Home</a>
+                    <a href="privacy.html" style="color:var(--text-muted);">Privacy</a>
+                    <a href="sources.html" style="color:var(--text-muted);">Sources</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/news.js"></script>
+</body>
+
+</html>
