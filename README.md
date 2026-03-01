@@ -1,26 +1,31 @@
-# NexAura – AI & Tech News Hub
+# CampusVotex – Public Complaint & Voting System
 
-NexAura is a high-end, interactive news platform designed to deliver the latest breakthroughs in Artificial Intelligence, Cybersecurity, and the Startup ecosystem. Built with a focus on visual excellence and smooth user experience.
+CampusVotex is a smart college complaint platform where students can report campus problems, vote for priority, and staff can update progress until resolved.
 
-## ✨ Key Features
-- **Interactive Entrance**: A unique 3-part logo-cube assembly animation that "flies" into the navbar upon user/scroll interaction.
-- **Global News Engine**: Instant search functionality available across All standardized sub-pages.
-- **Curated Feeds**: Specialized categories for AI, Cybersecurity, Startups, and Developers.
-- **Premium Aesthetics**: Liquid-glass UI effects, high-fidelity dark mode, and dynamic micro-animations.
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
+## Key Features
+- **3D Entry Experience** with animated cube intro.
+- **Account Login** using college register number + password.
+- **Role-Based Access**:
+  - **Students**: post issues, vote, rate solved issues.
+  - **Teachers/Staff**: cannot vote, can update issue status.
+- **Issue Posting Fields**: title, class/location, short description.
+- **AI-Style Similar Issue Merge**: similar complaints merge automatically and increase seriousness.
+- **Priority Stats**: top voted issue, open issue count, high-priority alert count.
+- **Staff Alerting**: unresolved issues with high votes show alarm for staff.
+- **Solved Status + Rating** section for feedback after closure.
+- **About Section** included on homepage.
+- **Liquid Glass UI** aesthetic with modern gradients.
 
-## 🛠️ Built With
-- **HTML5**: Semantic structure for SEO and accessibility.
-- **CSS3**: Vanilla CSS with custom animations, backdrop filters, and glassmorphism.
-- **JavaScript**: ES6+ logic for search filtering and DOM interactions.
-- **JSON**: Scalable data-driven news loading.
+## Demo Login Accounts
+- Student: `23CSE104 / student123`
+- Staff: `STAFF1001 / staff123`
 
-## 🚀 How to Run Locally
-1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/nexaura.git`
-2. Open `index.html` in any modern browser.
+## Run
+1. Open `index.html` directly, or
+2. Serve with: `python3 -m http.server 4173`
 
----
-**Creator**: NIBIN NASIR
-**Twitter**: [@nbrnibin](https://x.com/nbrnibin)
-**GitHub**: [hacksofnibin](https://github.com/hacksofnibin)
-**Instagram**: [@nbrnibin](https://www.instagram.com/nbrnibin)
+Then open: `http://127.0.0.1:4173`
+
+## Notes
+- This is a frontend prototype using browser `localStorage`.
+- Replace demo credentials with secure backend authentication for production.

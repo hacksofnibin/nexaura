@@ -1,266 +1,166 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NexAura – AI & Tech News Hub</title>
+  <title>CampusVotex | Smart Campus Complaint & Voting</title>
   <meta name="description"
-    content="NexAura delivers the latest AI, cybersecurity, education, and startup news. Stay ahead with personalized tech intelligence." />
-  <meta name="keywords"
-    content="AI news, artificial intelligence, cybersecurity, tech startups, education, machine learning" />
-  <link rel="icon" href="assets/logo.png" type="image/png" />
+    content="CampusVotex helps students raise campus issues, prioritize them with votes, and lets staff resolve them with transparent updates." />
+  <link rel="icon" type="image/svg+xml" href="assets/campusvotex-logo.svg" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body> <!-- -- Intro Loading Screen -- -->
-  <div id="introLoader" class="intro-loader">
-    <div class="logo-assembly" id="logoAssembly">
-      <div class="logo-part part-top" style="background-image: url('assets/logo.png');"></div>
-      <div class="logo-part part-left" style="background-image: url('assets/logo.png');"></div>
-      <div class="logo-part part-right" style="background-image: url('assets/logo.png');"></div>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div id="entryOverlay" class="entry-overlay">
+    <div class="entry-scene">
+      <div class="logo-3d-wrap" aria-hidden="true">
+        <div class="logo-3d">
+          <span class="face front">CVX</span>
+          <span class="face back">VOTE</span>
+          <span class="face right">CARE</span>
+          <span class="face left">FIX</span>
+          <span class="face top">ACT</span>
+          <span class="face bottom">NOW</span>
+        </div>
+      </div>
+      <p class="entry-tag">CampusVotex</p>
+      <h1>Raise Issues. Vote Priorities. Resolve Faster.</h1>
+      <p class="entry-text">A crowd-powered complaint system for colleges with transparent action tracking.</p>
+      <button id="enterPortalBtn" class="btn btn-primary">Enter CampusVotex</button>
     </div>
   </div>
 
-  <!-- Animated Background -->
-  <div class="bg-streaks" aria-hidden="true">
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-    <div class="bg-streak"></div>
-  </div>
-
-  <!-- ── Navbar ─────────────────────────────────────── -->
-  <nav class="navbar" id="navbar">
-    <a class="nav-logo" href="index.html">
-      <img src="assets/logo.png" alt="NexAura Logo" />
-      <span class="nav-logo-text">NexAura</span>
-    </a>
-
-    <!-- Desktop Search -->
-    <div class="nav-search">
-      <span class="search-icon"></span>
-      <input type="text" class="search-input" placeholder="Search AI, cybersecurity, startups…" autocomplete="off" />
-      <div class="search-results-dropdown" id="searchDropdown"></div>
-    </div>
-
-    <!-- Desktop Nav -->
-    <div class="nav-links nav-links-desktop">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="sources.html" class="nav-link">Sources</a>
-      <a href="about.html" class="nav-link">About</a>
-    </div>
-
-    <a href="login.html" class="btn-login" id="navLoginBtn">
-      <span></span> Sign In
-    </a>
-
-    <!-- Hamburger -->
-    <div class="hamburger" id="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </nav>
-
-  <!-- Mobile Nav -->
-  <div class="mobile-nav" id="mobileNav">
-    <a href="index.html" class="nav-link active"> Home</a>
-    <a href="sources.html" class="nav-link"> Sources</a>
-    <a href="about.html" class="nav-link"> About</a>
-    <div class="mobile-search">
-      <input type="text" class="search-input" placeholder="Search news…" autocomplete="off" />
+  <div id="authModal" class="auth-modal hidden">
+    <div class="glass-card auth-card">
+      <div class="logo-line">
+        <img src="assets/campusvotex-logo.svg" alt="CampusVotex logo" class="brand-logo" />
+        <h2>CampusVotex Login</h2>
+      </div>
+      <p class="muted">Sign in with your college register ID and password.</p>
+      <form id="loginForm" class="form-grid single-col">
+        <label>
+          Role
+          <select id="role" required>
+            <option value="student">Student</option>
+            <option value="staff">Teacher / Staff</option>
+          </select>
+        </label>
+        <label>
+          College Register No.
+          <input id="registerNo" type="text" maxlength="20" required placeholder="eg: 23CSE104" />
+        </label>
+        <label>
+          Password
+          <input id="password" type="password" required placeholder="Enter password" />
+        </label>
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+      <p id="loginHint" class="hint"></p>
     </div>
   </div>
 
-  <!-- ── Hero ───────────────────────────────────────── -->
-  <section class="hero relative">
-    <div class="container">
-      <div class="hero-badge">
-        <span class="dot"></span> Live Intelligence Feed
-      </div>
-      <h1>
-        The Future of Tech,<br />
-        <span class="gradient-text">Delivered Daily</span>
-      </h1>
-      <p>AI breakthroughs, cybersecurity alerts, startup launches, and cutting-edge research — all in one place,
-        personalized for you.</p>
-      <div class="hero-actions">
-        <a href="#news" class="btn btn-primary">
-          Explore News
-        </a>
-        <a href="login.html" class="btn btn-outline">
-          Personalize Feed
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Breaking News Ticker ────────────────────────── -->
-  <div class="ticker-wrap">
-    <div class="ticker-label">BREAKING</div>
-    <div class="ticker-content" id="tickerContent"></div>
-  </div>
-
-  <!-- ── Main Content ────────────────────────────────── -->
-  <main class="container" id="news">
-
-    <!-- Hot News -->
-    <section class="section">
-      <div class="section-header">
-        <h2 class="section-title">
-          <span class="icon"></span>
-          Hot & Trending
-        </h2>
-        <a href="#allNews" class="btn btn-outline" style="padding:8px 18px;font-size:0.8rem;">View All →</a>
-      </div>
-      <div id="hotNewsContainer"></div>
-    </section>
-
-    <!-- Personalized Section -->
-    <div class="personalized-section" id="personalizedSection">
-      <div class="section-header" style="margin-bottom:20px;">
-        <h2 class="section-title" style="font-size:1.3rem;">
-          <span class="icon">✨</span>
-          Recommended for You · <span id="personalizedCatName"></span>
-        </h2>
-      </div>
-      <div class="news-grid" id="personalizedGrid"></div>
-    </div>
-
-    <!-- Category Filter + All News -->
-    <section class="section" id="allNews">
-      <div class="section-header">
-        <h2 class="section-title">
-          All News
-        </h2>
-      </div>
-
-      <!-- Category Tabs -->
-      <div class="category-wrap" style="margin-bottom:28px;">
-        <button class="cat-btn active" data-cat="All">All</button>
-        <button class="cat-btn" data-cat="AI"> AI</button>
-        <button class="cat-btn" data-cat="Cybersecurity"> Cybersecurity</button>
-        <button class="cat-btn" data-cat="Education"> Education</button>
-        <button class="cat-btn" data-cat="Startups"> Startups</button>
-        <button class="cat-btn" data-cat="Developer"> Developer</button>
-        <button class="cat-btn" data-cat="Research"> Research</button>
-        <button class="cat-btn" data-cat="Tools"> Tools</button>
-      </div>
-
-      <!-- News Grid -->
-      <div class="news-grid" id="newsGrid">
-        <!-- Skeleton Loaders -->
-        <div class="news-card">
-          <div class="skeleton" style="height:200px;width:100%;border-radius:0;"></div>
-          <div class="news-card-body">
-            <div class="skeleton" style="height:14px;width:60%;margin-bottom:12px;"></div>
-            <div class="skeleton" style="height:18px;width:90%;margin-bottom:8px;"></div>
-            <div class="skeleton" style="height:14px;width:75%;margin-bottom:6px;"></div>
-            <div class="skeleton" style="height:14px;width:65%;"></div>
+  <div id="app" class="hidden">
+    <header class="topbar glass-card">
+      <div class="container topbar-inner">
+        <div class="brand-wrap">
+          <img src="assets/campusvotex-logo.svg" alt="CampusVotex logo" class="brand-logo" />
+          <div>
+            <p class="badge">Smart Complaint Platform</p>
+            <h2 class="brand-title">CampusVotex</h2>
+            <p class="subtitle">Crowd-based priority system for college problem solving.</p>
           </div>
         </div>
-        <div class="news-card">
-          <div class="skeleton" style="height:200px;width:100%;border-radius:0;"></div>
-          <div class="news-card-body">
-            <div class="skeleton" style="height:14px;width:55%;margin-bottom:12px;"></div>
-            <div class="skeleton" style="height:18px;width:85%;margin-bottom:8px;"></div>
-            <div class="skeleton" style="height:14px;width:70%;margin-bottom:6px;"></div>
-            <div class="skeleton" style="height:14px;width:80%;"></div>
+        <div class="user-panel">
+          <div id="sessionInfo" class="session-info"></div>
+          <button id="logoutBtn" class="btn btn-ghost">Logout</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container layout">
+      <section class="glass-card stats-grid">
+        <article>
+          <h3>Total Open Issues</h3>
+          <p id="statOpen" class="stat-value">0</p>
+        </article>
+        <article>
+          <h3>Top Voted Issue</h3>
+          <p id="statTopTitle" class="stat-value small">-</p>
+          <p id="statTopVotes" class="muted">0 votes</p>
+        </article>
+        <article>
+          <h3>High Priority Alerts</h3>
+          <p id="statAlerts" class="stat-value">0</p>
+        </article>
+      </section>
+
+      <section class="glass-card">
+        <h3>Post an Issue</h3>
+        <p class="muted">Required: title, class or location, and short description.</p>
+        <form id="issueForm" class="form-grid">
+          <label>
+            Title
+            <input type="text" id="title" required maxlength="90" placeholder="Projector not working" />
+          </label>
+          <label>
+            Class / Location
+            <input type="text" id="location" required maxlength="70" placeholder="CSE Class A / Lab-2" />
+          </label>
+          <label class="full">
+            Small Description
+            <textarea id="description" rows="4" required maxlength="300"
+              placeholder="Briefly explain the issue and impact..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Submit Issue</button>
+        </form>
+      </section>
+
+      <section class="glass-card">
+        <div class="list-head">
+          <h3>Community Issue Board</h3>
+          <div class="controls">
+            <select id="statusFilter">
+              <option value="all">All</option>
+              <option value="Open">Open</option>
+              <option value="In Progress">In Progress</option>
+              <option value="Resolved">Resolved</option>
+            </select>
+            <span id="issueCount">0 issues</span>
           </div>
         </div>
-        <div class="news-card">
-          <div class="skeleton" style="height:200px;width:100%;border-radius:0;"></div>
-          <div class="news-card-body">
-            <div class="skeleton" style="height:14px;width:65%;margin-bottom:12px;"></div>
-            <div class="skeleton" style="height:18px;width:80%;margin-bottom:8px;"></div>
-            <div class="skeleton" style="height:14px;width:90%;margin-bottom:6px;"></div>
-            <div class="skeleton" style="height:14px;width:60%;"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <!-- ── Footer ─────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>NexAura</h3>
-          <p>Intelligence delivered daily. Your go-to source for AI, cybersecurity, education, and startup news that
-            matters.</p>
-          <p style="margin-top:14px;font-size:0.8rem;color:#374151;">
-            Updated: <span id="footerDate"></span>
-          </p>
-        </div>
-        <div class="footer-col">
-          <h4>Categories</h4>
-          <ul>
-            <li><a href="#" onclick="document.querySelector('[data-cat=AI]').click();return false;"> AI</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Cybersecurity]').click();return false;">
-                Cybersecurity</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Education]').click();return false;">
-                Education</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Startups]').click();return false;">
-                Startups</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Developer]').click();return false;">
-                Developer</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Research]').click();return false;">
-                Research</a></li>
-            <li><a href="#" onclick="document.querySelector('[data-cat=Tools]').click();return false;"> Tools</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>NexAura</h4>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="sources.html">News Sources</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="login.html">Sign In</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Top Sources</h4>
-          <ul>
-            <li><a href="https://techcrunch.com" target="_blank">TechCrunch</a></li>
-            <li><a href="https://wired.com" target="_blank">WIRED</a></li>
-            <li><a href="https://technologyreview.com" target="_blank">MIT Tech Review</a></li>
-            <li><a href="https://theverge.com" target="_blank">The Verge</a></li>
-            <li><a href="https://venturebeat.com" target="_blank">VentureBeat</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2026 NexAura. All rights reserved. News sourced from credited publishers.</p>
-        <p><a href="privacy.html" style="color:var(--accent-blue);">Privacy Policy</a> · <a href="sources.html"
-            style="color:var(--accent-blue);">Sources</a></p>
-      </div>
-    </div>
-  </footer>
+        <p id="staffAlarm" class="alarm hidden"></p>
+        <div id="topProblems" class="top-problems"></div>
+        <div id="issueList" class="issue-list"></div>
+      </section>
 
-  <!-- ── Cookie Banner ─────────────────────────────── -->
-  <div class="cookie-banner" id="cookieBanner" style="display:none;">
-    <div class="cookie-text">
-      🍪 We use cookies to personalize your news feed and improve your experience.
-      <a href="privacy.html"> Learn more</a>
-    </div>
-    <div class="cookie-actions">
-      <button class="btn btn-primary cookie-dismiss" id="cookieAccept">Accept All</button>
-      <button class="btn btn-outline cookie-dismiss" id="cookieDecline">Decline</button>
-    </div>
+      <section class="glass-card">
+        <h3>Resolution Ratings</h3>
+        <p class="muted">After an issue is resolved, students can rate the solution quality.</p>
+        <div id="ratingList" class="rating-list"></div>
+      </section>
+
+      <section class="glass-card" id="about">
+        <h3>About CampusVotex</h3>
+        <p>CampusVotex is a college-focused complaint management platform where students report problems and vote for
+          priorities. Staff members update issue status as the work progresses, making resolution transparent and
+          accountable for everyone.</p>
+        <ul>
+          <li>Students can post and vote issues.</li>
+          <li>Teachers / staff can update issue status and close issues.</li>
+          <li>High-voted unresolved issues trigger staff alerts.</li>
+          <li>Similar issues are auto-merged using AI-style text similarity logic.</li>
+        </ul>
+      </section>
+    </main>
   </div>
 
-  <script>
-    document.getElementById('footerDate').textContent = new Date().toLocaleDateString('en-US', {
-      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-    });
-  </script>
   <script src="js/main.js"></script>
-  <script src="js/news.js"></script>
 </body>
 
 </html>
